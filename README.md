@@ -8,3 +8,4 @@ Tecnologias utilizadas para o backend da aplicação clone inter
 </code>
 
 ## Assistir a partir de 23:14
+https://www.youtube.com/watch?v=fXs03oaNE34&t=1394s
