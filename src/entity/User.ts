@@ -5,7 +5,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 
 // Decorator TS
 @Entity()
-export class Pix {
+export class User {
 
     @PrimaryGeneratedColumn('uuid')
     id: string;

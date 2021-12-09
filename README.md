@@ -7,5 +7,5 @@ Tecnologias utilizadas para o backend da aplicação clone inter
     npm i Express typescript -D ts-node -D @types/express -D @types/node -D nodemon -D
 </code>
 
-## Assistir a partir de 59:27
+## Assistir a partir de 1:15:44
 https://www.youtube.com/watch?v=fXs03oaNE34&t=1394s
