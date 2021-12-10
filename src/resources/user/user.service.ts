@@ -28,7 +28,6 @@ export default class UserService {
 
         const { secret, expiresIn } = authConfig.jwt;
 
-
         const token = sign({
             firstName: existUser.firstName,
             lastName: existUser.lastName,
