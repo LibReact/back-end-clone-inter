@@ -13,7 +13,6 @@ export class Pix {
     @Column()
     status: string;
 
-
     @ManyToOne(() => User, user => user.id)
     @JoinColumn()
     requestingUser: User;
@@ -21,16 +20,13 @@ export class Pix {
     @ManyToOne(() => User, user => user.id, {nullable: true})
     @JoinColumn()
     payingUser: User;
-
-
-
-
+    
     @Column()
     value: number;
 
     @CreateDateColumn()
-    createAt: Date
-    
+    createdAt: Date;
+
     @UpdateDateColumn()
-    updateAt: Date
+    updatedAt: Date;
 }
