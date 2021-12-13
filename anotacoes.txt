@@ -1,0 +1,4 @@
+middleware para lidar com a autenticação do usuário, algumas rotas precisam ser protegidas.
+se o user não estiver logado ou se estiver com o token invalido nao pode fazer alterações nessas rotas;
+
+basicamente um middleware é uma função de rota igual as outras
